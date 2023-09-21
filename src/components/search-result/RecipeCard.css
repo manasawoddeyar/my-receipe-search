@@ -1,0 +1,157 @@
+/* RecipeCard.css */
+.RecipeCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer; /* Add cursor style for clickable behavior */
+  }
+  
+  .RecipeCard.expanded {
+    height: auto; /* Expand the card */
+  }
+  
+  .RecipeCard img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .IngredientsImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .RecipeCard h4 {
+    margin-top: 10px;
+  }
+  
+  .RecipeCard ul,
+  .RecipeCard ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .RecipeCard li {
+    margin-bottom: 5px;
+  }
+  
+  .clickToExpand {
+    font-size: 14px;
+    color: #007bff; /* You can customize the color */
+    cursor: pointer;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .like-button,
+  .save-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+
+  .like-button:hover{
+    color: #ff5733; /* Change color on hover */
+  }
+
+  .liked {
+    color: #ff5733; /* Color when liked/saved */
+  }
+
+  .save-button:hover {
+    color: #007bff; /* Change color on hover */
+  }
+
+  .saved {
+    color: #007bff; /* Color when liked/saved */
+  }
+
+/* RecipeCard.css */
+.RecipeCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer; /* Add cursor style for clickable behavior */
+  }
+  
+  .RecipeCard.expanded {
+    height: auto; /* Expand the card */
+  }
+  
+  .RecipeCard img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .IngredientsImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .RecipeCard h4 {
+    margin-top: 10px;
+  }
+  
+  .RecipeCard ul,
+  .RecipeCard ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .RecipeCard li {
+    margin-bottom: 5px;
+  }
+  
+  .clickToExpand {
+    font-size: 14px;
+    color: #007bff; /* You can customize the color */
+    cursor: pointer;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .like-button,
+  .save-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+
+  .like-button:hover{
+    color: #ff5733; /* Change color on hover */
+  }
+
+  .liked {
+    color: #ff5733; /* Color when liked/saved */
+  }
+
+  .save-button:hover {
+    color: #007bff; /* Change color on hover */
+  }
+
+  .saved {
+    color: #007bff; /* Color when liked/saved */
+  }
+
+.recipeLabels{
+  background-color: #f0f0f0e3;
+}

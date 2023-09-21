@@ -1,0 +1,24 @@
+/* RecipeList.css */
+.RecipeList {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.RecipeCardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.RecipeList h2{
+  text-align: center;
+}
+
+.recipe-heading {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
